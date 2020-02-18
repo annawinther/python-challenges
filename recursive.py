@@ -12,6 +12,6 @@ def recursvie_search(arr, target):
             return True
     return False
 
-arr = []
-yo = recursvie_search(arr, 2)
-print(yo)
+arr = [1,3,2]
+recursive = recursvie_search(arr, 2)
+print(recursive) 
